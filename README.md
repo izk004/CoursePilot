@@ -21,15 +21,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Windows PowerShell 可使用：
-
-```powershell
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-streamlit run app.py
-```
-
 应用默认在 `http://localhost:8501` 提供服务。
 
 首次载入时，`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` 会下载到本机模型缓存，因此需要网络连接。若公司网络限制下载，请预先缓存该模型，或在 `.euv` 中改为可用的 SentenceTransformers 模型名称。
