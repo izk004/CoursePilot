@@ -1,0 +1,14 @@
+streamlit>=1.39,<2
+chromadb>=0.5,<1
+# ChromaDB 0.x uses the pre-3.0 PostHog capture API.  Newer PostHog releases
+# changed that API and emit telemetry errors during collection operations.
+posthog>=2.4,<3
+sentence-transformers>=3,<4
+openai>=1.50,<2
+PyMuPDF>=1.24,<2
+python-pptx>=1.0,<2
+SQLAlchemy>=2.0,<3
+pydantic>=2.8,<3
+pydantic-settings>=2.5,<3
+python-dotenv>=1.0,<2
+pytest>=8,<9
